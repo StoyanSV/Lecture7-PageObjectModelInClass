@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import pages.adminarea.AdminCustomerRename;
 import pages.adminarea.AdminLogin;
 
-public class CustomerRename extends BaseTest {
+public class CustomerRenameTests extends BaseTest {
 
     @Test
     public void customerRename() {

@@ -47,5 +47,6 @@ public class AdminCustomerRename {
     public static void verifyAlertSuccessText(String expectedText, String failureTextMsg) {
         String actualText = driver.findElement(By.cssSelector("div.alert-success")).getText();
         Assert.assertTrue(actualText.contains(expectedText),failureTextMsg);
+
     }
 }
