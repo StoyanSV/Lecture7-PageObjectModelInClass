@@ -10,7 +10,7 @@ public class UserRegisterTests extends BaseTest {
     public void successfulRegistration(){
         UserRegistration.navigate();
 
-        UserRegistration.registration("john2","doe2","john2@doe.com","01020304","123!","123!");
+        UserRegistration.registration("john","doe","john@doe.com","01020304","123!","123!");
 
         UserRegistration.verifySuccessfulRegistrationText("Your Account Has Been Created!","Your registration failed!");
 
